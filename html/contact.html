@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Headphone Space</title>
+        <meta name="description" content="A Computer Parts Merchandiser.">
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+        <script src="../js/validateContact.js"></script>
+    </head>
+
+    <body>
+
+        <header class="top">
+            <div class="title">
+                <h1>The Computer Place</h1>
+                <img class="header-pic" src="../images/website2.png" width="300px" height="300px" alt="Company logo">
+                <p class="description">The Place to be for All of your Computer Needs!</p>
+            </div>
+            <div>
+                <nav class="navigation">
+                    <ul class="navigation-list">
+                        <a href="../html/index.html">Home</a>
+                        <a href="../html/about.html">About Us</a>
+                        <a href="../html/products.html">Products</a>
+                        <a href="../html/contact.html">Contact Us</a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="main-articles">
+                <h1>Contact Us</h1>
+                <article>
+                    <h2>Contact Form</h2>
+                    <img src="../images/form.png" alt="Blue Form Icon" width="300px" height="300px">
+                    <form name="form1" class="contact-form" action="../php/insert-contact.php" method="POST">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="contactmessage">Message:</label><br>
+                        <input type="text" id="contactmessage" name="contactmessage"><br>
+                        <!-- <textarea rows = "5" cols = "17" name = "contactmessage"></textarea><br> -->
+                        <!-- <button id="submit" class="submit" type="button" name="submit" onclick="return validateContact()">Submit</button> -->
+                        <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+                        <!--<button id="form-button" type="button">Submit</button>-->
+                      </form>
+                </article>
+               
+            </section>
+
+        </main>
+
+        <footer class="bottom">
+            <div>
+                <div class="thanks">
+                    <p>Thanks for Visiting!</p>
+                </div>
+                <div class="other-links">
+                    
+                    <ul class="navigation-list">
+                        <a href="../html/contact.html">Contact Us</a>
+                    </ul>
+                </div>
+              
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,194 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/*background colour*/
+
+body{
+    background-image: url(../images/pattern.png);
+}
+
+/***header***/
+
+/*head wrapper*/
+
+header div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header div h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    padding-top: 5px;
+    background-color: #ffffff;
+    
+}
+
+header div p{
+    text-align: center;
+    color:#000000;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: monospace;
+    padding-top: 5px;
+    background-color: #ffffff;
+}
+
+header div a{
+    text-align: center;
+    color:#ffffff;
+    background: #30415D;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 25px;
+    border: solid black;
+}
+
+header div a:hover {
+    color: #000000;
+  }
+
+/***main content***/
+
+/*main wrapper*/
+main{
+    font-family: monospace;
+    overflow:auto;
+    position: relative;
+}
+
+/*articles wrapper*/
+
+main section h1{
+    background-color: #30415D;
+    padding-top: 5px;
+    color: #ffffff;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: center;
+    border: solid black;
+}
+
+main section img{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* width: 300px; */
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+
+
+/*individual article wrapper*/
+main article{
+    background-color: #8EAEBD;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+main article h2{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+main button{
+    padding: 5px 5px 5px 5px;
+    font-family: monospace; 
+    margin: 5px 5px 5px 5px;
+}
+
+main form.contact-form{
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin-left: 350px;
+    margin-right: 300px;
+}
+
+main form input{
+    margin: 5px;
+}
+
+main form textarea{
+    margin: 5px;
+}
+
+main form label{
+    margin: 5px;
+}
+
+main form button{
+    padding: 10px;
+    background-color: #CF6766;
+}
+
+/***footer***/
+
+
+/*footer wrapper*/
+footer{
+    
+    font-family: monospace;
+    clear:both;
+}
+
+/*footer thank you wrapper*/
+footer div.thanks{
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #ffffff;
+}
+
+/*social media wrapper*/
+footer div.other-links{
+    text-align: center;
+    font-size: 15px;
+    padding: 3px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    list-style-type: none;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+footer div ul.navigation-list{
+    text-align: center;
+    color:#ffffff;
+    background: #30415D;
+    height: auto;
+    padding: 3px 8px 6px 16px;
+    font-family: monospace;
+    text-decoration: none;
+    border: solid black;
+}
+
+footer div a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    color: #000000;
+}
+
+footer div a:visited {
+    color: rgb(0, 0, 0);
+}
