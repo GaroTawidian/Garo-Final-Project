@@ -1,4 +1,7 @@
 <?php
+
+   //This set of code is to accept any input data and store it in the data base
+   
 include_once 'db.php';
 if(isset($_POST['submit']))
 {    

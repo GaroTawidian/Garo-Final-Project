@@ -1,4 +1,7 @@
 <?php
+
+   //Allows for the PHP to communicate with the data base ran by the Unviversity of Windsor
+
     $servername='localhost';
     $username='pacek_db';
     $password='myPASSdb123';
